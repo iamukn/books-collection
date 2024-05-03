@@ -13,6 +13,6 @@ app = FastAPI()
 app.include_router(router1)
 app.include_router(router2)
 
-# dunder that starts the server is this script is executed directly and not imported
+# dunder that starts the server if this script is executed directly and not imported
 if __name__ == "__main__":
     uvicorn.run(app, host='0.0.0.0', port=8000,)
