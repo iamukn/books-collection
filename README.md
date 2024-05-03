@@ -37,11 +37,8 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
    git clone https://github.com/your-username/book-management-api.git
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the root directory:
 
-   ```bash
-   cd book-management-api
-   ```
 
 3. Set the environment variable `PATH`:
 
@@ -60,7 +57,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 6. Run the application:
 
    ```bash
-   uvicorn main:app --reload
+   uvicorn app:app --reload
    ```
 
 7. Access the SWAGGERAPI documentation in your browser:
@@ -74,5 +71,3 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 - Use the provided endpoints to perform CRUD operations on the book collection.
 - Ensure to provide required fields and valid input formats when adding or updating books.
 - Explore the Swagger documentation for detailed information on available endpoints and request/response formats.
-
-### Contributing
