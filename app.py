@@ -2,14 +2,14 @@
 """ Basic fastapi project"""
 
 from fastapi import FastAPI, HTTPException
-from typing import Union, Any
 import uvicorn
-#from validators.validate import Book
 from views.retrieve_create import get_create_router as router1
 from views.get_update_delete_a_book import router2
 
+# created an instance of the FastAPI class
 app = FastAPI()
 
+# registered the routes
 app.include_router(router1)
 app.include_router(router2)
 
