@@ -34,7 +34,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/book-management-api.git
+   git clone https://github.com/iamukn/book-management-api.git
    ```
 
 2. Navigate to the root directory:
